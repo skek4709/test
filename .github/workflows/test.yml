@@ -33,4 +33,4 @@ jobs:
       # Hello from AWS: WhoAmI
       - name: Sts GetCallerIdentity
         run: |
-          aws sts get-caller-identity
+          aws sts get-caller-identity# IAM 자격증명정보 가져오기
