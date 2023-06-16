@@ -30,7 +30,7 @@ jobs:
           #aws-access-key-id: AKIAXPMT27B2VL2S3NOG
           #aws-secret-access-key: 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
           aws-region: ${{ env.AWS_REGION }}
-      # Hello from AWS: WhoAmI
+      # Hello from AWS: WhoAmI 
       - name: Sts GetCallerIdentity
         run: |
           aws sts get-caller-identity
